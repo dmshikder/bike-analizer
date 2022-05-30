@@ -1,11 +1,14 @@
-import React from 'react';
+import { useEffect, useState } from "react";
 
-const useReview = () => {
-    return (
-        <div>
-            
-        </div>
-    );
-};
+const useReview = () =>{
+    const [reviews, setReviews] = useState([]);
+    useEffect(() =>{
+        fetch('reviewData.json')
+        .then(res=>res.json())
+        .then(data=>setReviews(data));
+    },[]);
+
+    return [reviews, setReviews];
+}
 
 export default useReview;

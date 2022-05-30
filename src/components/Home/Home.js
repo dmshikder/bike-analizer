@@ -1,9 +1,13 @@
 import HomeProduct from "../HomeProduct/HomeProduct";
+import HomeReview from "../HomeReview/HomeReview";
 import "./Home.css";
 
 const Home = () => {
   return (
-    <HomeProduct></HomeProduct>
+    <div>
+      <HomeProduct></HomeProduct>
+      <HomeReview></HomeReview>
+    </div>
   );
 };
 
