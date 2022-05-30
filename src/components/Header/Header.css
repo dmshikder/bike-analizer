@@ -1,0 +1,15 @@
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 20px;
+}
+.navbar {
+  background-color: #fef9a7;
+  padding: 20px;
+}
+.navbar a:hover {
+  background-color: #37e2d5;
+  border-radius: 6px;
+}
