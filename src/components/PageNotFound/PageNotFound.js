@@ -3,7 +3,8 @@ import React from 'react';
 const PageNotFound = () => {
     return (
         <div>
-            <h3>page not found</h3>
+            
+            <img className='img  w-full h-full' src="https://www.gpkumar.com/wp-content/uploads/2020/05/HTML-404-Page.gif" alt="" />
         </div>
     );
 };
