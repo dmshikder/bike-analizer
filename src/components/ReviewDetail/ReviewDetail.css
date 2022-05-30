@@ -1,0 +1,13 @@
+.review img {
+  border-radius: 8px;
+  width: auto;
+}
+.review {
+  border: 3px solid gold;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  margin: 20px;
+  padding: 10px;
+}

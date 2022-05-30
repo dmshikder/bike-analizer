@@ -8,7 +8,7 @@ const DashboardChart = () => {
         fetch('data.json')
         .then(res=>res.json())
         .then(data=>setData(data));
-    },[])
+    },[]);
       
     return (
         <div className='dashboard-chart grid grid-cols-2 justify-center '>
@@ -31,7 +31,7 @@ const DashboardChart = () => {
           <Area type="monotone" dataKey="investment" stroke="#00FFAB" fill="#F47C7C" />
           <Area type="monotone" dataKey="revenue" stroke="#00FFAB" fill="#00FFAB" />
         </AreaChart>
-        <p>XAxis: investment</p></div>
+        <p><span className='text-red-400'>Investment </span> vs <span className='text-green-400'>Revenue</span></p></div>
 
 
       <div>  <BarChart
