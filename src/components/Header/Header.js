@@ -7,11 +7,14 @@ const Header = () => {
         <div className="navbar">
       
         <nav >
-           <Link to="/" >Home</Link>
+          
+           <Link  to="/" >Home</Link>
            <Link to="/review">Review</Link>
            <Link to="/dashboard">Dashboard</Link>
            <Link to="/blogs">Blog</Link>
            <Link to="/about">About</Link>
+           
+         
            
          </nav>
        </div>
